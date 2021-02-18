@@ -1,0 +1,12 @@
+.newspapers {
+  background-color: rgb(223, 206, 200);
+  padding: 0 5%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.newspapers h2 {
+  font-size: 2rem;
+}
+.interviewImage {
+  margin-top: 10%;
+}

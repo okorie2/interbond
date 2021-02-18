@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
+.hometopic{
+    text-align: left;
+    color: white;
+    margin-left: 8%;
+    padding-top: 10%;
+    font-family: 'Droid Serif', Georgia, Times, serif;;
+    
+}
+@media only screen and (max-width: 600px) {
+    .hometopic{
+        margin-top:30%;
+        margin-right: 5%;
+    }
+}
