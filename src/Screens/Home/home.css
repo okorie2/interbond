@@ -174,9 +174,11 @@ body {
   }
   .flex1 img {
     height: 50vh;
-    margin-left: 0.5rem;
+    width: 62vw;
+    margin-left: 1.8rem;
   }
   .flex2 {
     margin: 2rem auto;
+    width: 70%;
   }
 }
