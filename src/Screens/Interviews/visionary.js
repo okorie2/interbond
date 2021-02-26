@@ -2,6 +2,7 @@ import React from "react";
 import Vision from "../../Assets/images/visionary.jpg";
 import Sidenav from "../../components/Sidenav";
 import Header from "../../components/Navbar/Header";
+import { Link } from "react-router-dom";
 
 function Visionary(props) {
   return (
@@ -55,6 +56,11 @@ function Visionary(props) {
           <Sidenav />
         </div>{" "}
       </section>
+      <button className="myButton">
+        <Link to="/">
+          <h3>home page</h3>
+        </Link>
+      </button>
     </>
   );
 }

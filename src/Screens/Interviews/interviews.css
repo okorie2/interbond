@@ -75,6 +75,9 @@
   width: 100%;
   height: 30rem;
 }
+.myButton {
+  visibility: hidden;
+}
 @media only screen and (max-width: 900px) {
   .sidenav {
     visibility: hidden;
@@ -88,5 +91,8 @@
     margin-top: 5rem;
     margin-left: 25%;
     text-align: center;
+  }
+  .myButton {
+    visibility: visible;
   }
 }

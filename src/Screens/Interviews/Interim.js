@@ -2,6 +2,7 @@ import React from "react";
 import Interims from "../../Assets/images/interim.jpg";
 import Header from "../../components/Navbar/Header";
 import Sidenav from "../../components/Sidenav";
+import { Link } from "react-router-dom";
 function Interim(props) {
   return (
     <>
@@ -63,6 +64,11 @@ function Interim(props) {
           <Sidenav />
         </div>{" "}
       </section>
+      <button className="myButton">
+        <Link to="/">
+          <h3>home page</h3>
+        </Link>
+      </button>
     </>
   );
 }

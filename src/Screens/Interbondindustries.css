@@ -86,12 +86,27 @@
   font-size: 30px;
 }
 @media only screen and (max-width: 600px) {
-  .carousel-img1,
-  .carousel-img2,
-  .carousel-img3 {
+  .carousel-img1 {
     background-size: contain;
   }
-  .carousel {
-    height: 100vh;
+
+  .bi-flex {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+  }
+  .tri-flex img,
+  .tri-col img {
+    width: 100%;
+    margin: 10% 0;
+  }
+  .tri-col {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 3%;
   }
 }

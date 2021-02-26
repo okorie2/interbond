@@ -2,6 +2,7 @@ import React from "react";
 import Scramble from "../../Assets/images/scrambles.jpg";
 import Header from "../../components/Navbar/Header";
 import Sidenav from "../../components/Sidenav";
+import { Link } from "react-router-dom";
 function Scrambles(props) {
   return (
     <>
@@ -39,6 +40,11 @@ function Scrambles(props) {
           <Sidenav />
         </div>{" "}
       </section>
+      <button className="myButton">
+        <Link to="/">
+          <h3>home page</h3>
+        </Link>
+      </button>
     </>
   );
 }

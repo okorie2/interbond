@@ -2,6 +2,7 @@ import React from "react";
 import Interbond from "../../Assets/images/interbond.jpg";
 import Header from "../../components/Navbar/Header";
 import Sidenav from "../../components/Sidenav";
+import { Link } from "react-router-dom";
 function interbond(props) {
   return (
     <>
@@ -36,6 +37,11 @@ function interbond(props) {
           <Sidenav />
         </div>{" "}
       </section>
+      <button className="myButton">
+        <Link to="/">
+          <h3>home page</h3>
+        </Link>
+      </button>
     </>
   );
 }

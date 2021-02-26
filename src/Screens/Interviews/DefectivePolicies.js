@@ -3,6 +3,7 @@ import Defective from "../../Assets/images/defective policies.jpg";
 import "../Interviews/interviews.css";
 import Header from "../../components/Navbar/Header";
 import Sidenav from "../../components/Sidenav";
+import { Link } from "react-router-dom";
 
 function DefectivePolicies(props) {
   return (
@@ -32,38 +33,24 @@ function DefectivePolicies(props) {
           </p>{" "}
           <p>
             {" "}
-            As long as our industrialisation policies are formulated without due
-            difference to the inputs from the Le actual investors, we would end
-            drawing up polieies for the shell " and al chi, e.s. he fill-the;
-            ..teued. '16,1 Nlewedim Mit:Arnett that in a situation cifPZ
-            infrastructural base, capital flight, an escdisiage: that .1, c,
-            tinfa, wrahl■ against the naira and an unsensitised market, no
-            reasonable investor would As long as our industrialisation policies
-            are formulated without due difference to the inputs from the Le
-            actual investors, we would end drawing up polieies for the shell "
-            and al chi, e.s.he fill - the;..teued. '16,1 Nlewedim Mit:Arnett
-            that in a situation cifPZ infrastructural base, capital flight, an
-            escdisiage: that .1, c, tinfa, wrahl■ against the naira and an
-            unsensitised market, no reasonable investor would As long as our
-            industrialisation policies are formulated without due difference to
-            the inputs from the Le actual investors, we would end drawing up
-            polieies for the shell " and al chi, e.s. he fill-the; ..teued.
-            '16,1 Nlewedim Mit: Arnett that in a situation cifPZ infrastructural
-            base, capital flight, an escdisiage: that .1, c, tinfa, wrahl■
+            As long as our industrialization policies are formulated without due
+            difference to the inputs from the actual investors, we would end
+            drawing up policies for the shelves and archives, he further argued.
+            Chief Nlewedim reasoned that in a situation of poor infastructural
+            base, capital fight, an exchange rate that skews unfavourably
             against the naira and an unsensitised market, no reasonable investor
-            would As long as our industrialisation policies are formulated
-            without due difference to the inputs from the Le actual investors,
-            we would end drawing up polieies for the shell " and al chi, e.s. he
-            fill-the; ..teued. '16,1 Nlewedim Mit:Arnett that in a situation
-            cifPZ infrastructural base, capital flight, an escdisiage: that .1,
-            c, tinfa, wrahl■ against the naira and an unsensitised market, no
-            reasonable investor would{" "}
+            would put down money in any manufacturing business in nigeria.
           </p>{" "}
         </div>{" "}
         <div className="side-bar">
           <Sidenav />
         </div>{" "}
       </section>{" "}
+      <button className="myButton">
+        <Link to="/">
+          <h3>home page</h3>
+        </Link>
+      </button>
     </>
   );
 }

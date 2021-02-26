@@ -24,6 +24,7 @@ function App() {
         <Route exact path="/interim" component={Interim} />
         <Route exact path="/scrambles" component={Scrambles} />
         <Route exact path="/reaping" component={Reaping} />
+        <Route exact path="/interview" component={Reaping} />
         <Route
           exact
           path="/interbondindustries"

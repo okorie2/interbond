@@ -2,6 +2,7 @@ import React from "react";
 import Industrialists from "../../Assets/images/industrialists.jpg";
 import Header from "../../components/Navbar/Header";
 import Sidenav from "../../components/Sidenav";
+import { Link } from "react-router-dom";
 function Industrialist(props) {
   return (
     <>
@@ -98,6 +99,11 @@ function Industrialist(props) {
           <Sidenav />
         </div>{" "}
       </section>
+      <button className="myButton">
+        <Link to="/">
+          <h3>home page</h3>
+        </Link>
+      </button>
     </>
   );
 }

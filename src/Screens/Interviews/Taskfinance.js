@@ -2,6 +2,7 @@ import React from "react";
 import Taskfinances from "../../Assets/images/taskfinance.jpg";
 import Header from "../../components/Navbar/Header";
 import Sidenav from "../../components/Sidenav";
+import { Link } from "react-router-dom";
 function Taskfinance(props) {
   return (
     <>
@@ -56,6 +57,11 @@ function Taskfinance(props) {
           <Sidenav />
         </div>{" "}
       </section>
+      <button className="myButton">
+        <Link to="/">
+          <h3>home page</h3>
+        </Link>
+      </button>
     </>
   );
 }

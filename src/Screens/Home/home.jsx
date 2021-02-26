@@ -74,7 +74,7 @@ const Home = () => {
                <Link to ="/interbondindustries"> <button className="myButton2">EXPLORE PRODUCTS</button></Link>
             </div>
             
-            <div className="interviews">
+            <div className="interviews" id="interview">
                 <h2>INTERVIEWS OF SONNY NLEWEDIM</h2>
                 <div className="interview-flex">
                     <div className="interview-grid">

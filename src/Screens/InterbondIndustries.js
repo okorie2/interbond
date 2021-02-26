@@ -33,25 +33,19 @@ const InterbondIndustries = () => {
   return (
     <>
       <Header />
-      <CarouselProvider
+      {/* <CarouselProvider
         naturalSlideWidth={100}
         naturalSlideHeight={50}
         totalSlides={3}
         className="carousel"
-      >
-        <Slider>
-          <Slide index={0}>
-            <div className="carousel-img3">
-              <p className="legend">
-                INTERBOND ELECTRICALS. DECORATIVE LIGHTINGS
-              </p>
-              <div className="carousel-control">
-                <ButtonBack>Back</ButtonBack>
-                <ButtonNext>Next</ButtonNext>
-              </div>
-            </div>
-          </Slide>
-          <Slide index={1}>
+      > */}
+
+      <div className="carousel-img2">
+        <p className="legend">INTERBOND ELECTRICALS. DECORATIVE LIGHTINGS</p>
+        <div className="carousel-control"></div>
+      </div>
+
+      {/* <Slide index={1}>
             <div className="carousel-img2">
               <p className="legend">
                 INTERBOND ELECTRICALS. DECORATIVE LIGHTINGS
@@ -72,9 +66,9 @@ const InterbondIndustries = () => {
                 <ButtonNext>Next</ButtonNext>
               </div>
             </div>
-          </Slide>
-        </Slider>
-      </CarouselProvider>
+          </Slide> */}
+
+      {/* </CarouselProvider> */}
       <div>
         <h3>Interbond Chandeliers</h3>
         <p>
@@ -125,20 +119,20 @@ const InterbondIndustries = () => {
           <br /> elctrical fittings for aesthetics and customer satisfaction.
         </p>
         <div class="grid-container">
-          <div class="item1">
+          <div class="item1" data-aos="fade-out">
             <img src={Fits1} alt="interbond industries" />
           </div>
 
-          <div class="item3">
+          <div class="item3" data-aos="fade-in">
             <img src={Fits3} alt="interbond industries" />
           </div>
-          <div class="item4">
+          <div class="item4" data-aos="fade-out">
             <img src={Fits4} alt="interbond industries" />
           </div>
-          <div class="item5">
+          <div class="item5" data-aos="fade-in">
             <img src={Fits5} alt="interbond industries" />
           </div>
-          <div class="item6">
+          <div class="item6" data-aos="fade-out">
             <img src={Fits6} alt="interbond industries" />
           </div>
           {/* <div class="item7">7</div>

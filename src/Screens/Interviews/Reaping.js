@@ -2,6 +2,7 @@ import React from "react";
 import Reapings from "../../Assets/images/reaping.jpg";
 import Header from "../../components/Navbar/Header";
 import Sidenav from "../../components/Sidenav";
+import { Link } from "react-router-dom";
 function Reaping(props) {
   return (
     <>
@@ -74,6 +75,11 @@ function Reaping(props) {
           <Sidenav />
         </div>{" "}
       </section>
+      <button className="myButton">
+        <Link to="/">
+          <h3>home page</h3>
+        </Link>
+      </button>
     </>
   );
 }

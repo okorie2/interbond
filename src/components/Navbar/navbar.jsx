@@ -22,9 +22,7 @@ const Navbar = () => {
               <Link to="/interview">INTERVIEWS</Link>
             </li>
 
-            <li className="option item" onClick={closeMobileMenu}>
-              <Link to="#">CONTACT</Link>
-            </li>
+            
           </ul>
         </div>
 
