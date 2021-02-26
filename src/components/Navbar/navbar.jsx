@@ -19,7 +19,7 @@ const Navbar = () => {
           </Link>
           <ul className={click ? "nav-options active" : "nav-options"}>
             <li className="option item" onClick={closeMobileMenu}>
-              <Link to="#interview">INTERVIEWS</Link>
+              <Link to="/interview">INTERVIEWS</Link>
             </li>
 
             <li className="option item" onClick={closeMobileMenu}>

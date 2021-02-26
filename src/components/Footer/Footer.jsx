@@ -22,14 +22,14 @@ const Footer = ()=>{
 
         <div className="footer-grid" id="address">
             <div className="left flex">
-                <div> <b>Designo Central Office</b></div>
-                <div>3886 Wellington Street</div>
-                <div>Toronto, Ontario M9C 3J5</div>
+                <div> <b>INTERBOND INDUSTRIES</b></div>
+                <div>9 Millitary Street, Onikan LAgos</div>
+                <div>P.O Box 5609 Ikeja Lagos</div>
             </div>
             <div className="right flex">
                 <div><b>Contact Us (Central Office)</b></div>
-                <div>P : +1 253-863-8967</div>
-                <div>M : contact@designo.co</div>
+                <div>P : 08085034987</div>
+                <div>M : interbondnig.com</div>
             </div><br/> <br/>
             <div className="icon-flex">
                 <div> <img src={Fb}/></div>

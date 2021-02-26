@@ -9,6 +9,7 @@ import interbond from "./Screens/Interviews/Interbond";
 import Interim from "./Screens/Interviews/Interim";
 import Scrambles from "./Screens/Interviews/Scrambles";
 import Reaping from "./Screens/Interviews/Reaping";
+import InterbondIndustries from "./Screens/InterbondIndustries";
 
 function App() {
   return (
@@ -23,6 +24,11 @@ function App() {
         <Route exact path="/interim" component={Interim} />
         <Route exact path="/scrambles" component={Scrambles} />
         <Route exact path="/reaping" component={Reaping} />
+        <Route
+          exact
+          path="/interbondindustries"
+          component={InterbondIndustries}
+        />
       </Switch>
     </div>
   );

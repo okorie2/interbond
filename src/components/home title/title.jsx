@@ -10,8 +10,9 @@ const Title = () => {
     <>
       <div className="hometopic" data-aos="flip-right">
         <h1>
-          INTERBOND INDUSTRIES <br />
-          <br /> INTERBOND FINANCE
+        CHIEF SONNY NLEWEDIM <br />
+        <br/>
+          <div style={{color: "#fc9288"}}>INTERBOND FINANCE <br/>INTERBOND INDUSTRIES</div>
         </h1>
         <button className="myButton">
           <h3>ABOUT US</h3>

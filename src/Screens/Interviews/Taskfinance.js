@@ -1,39 +1,61 @@
 import React from "react";
 import Taskfinances from "../../Assets/images/taskfinance.jpg";
 import Header from "../../components/Navbar/Header";
+import Sidenav from "../../components/Sidenav";
 function Taskfinance(props) {
   return (
     <>
       <Header />
-      <div className="newspapers">
-        <img src={Taskfinances} alt="" className="interviewImage" />r ends cr
-        Indirect control, av applied in advamcd ne economics, arc kv• • e. S
-        DAILY CHAMPION, Friday, Au. ::.Gove•rnor tasks finance,i:-:-..:Yv°' „
-        .•• • conC I.; F=Nbceninus:',T,117,: institutions': • • 'hie
-        feW'finance'housesto'- ',HI ,..c" , have its head office out- ....‘,3,
-        de Lagos. c fund projects that will siThe chairman of The COM `,
-        =,:i,:khee,,,crttgde Nai:ggi7u7tiii;rrvii:lids 2:11:
-        il,:i:acdpd.i:nri547-isn. company, explained the THE in . ' "ITT1 sone
-        Governor. Z',1,,,T:itliunt,',!`drbb:nksg,:. Lion to enable crucial
-        gerththe„,it.y._ of the Senior Scat Dr. Ogboan, cria ezmcnt and its
-        ugcn• industrial projects take 'the private ''' sl,:e`,.',`;'s oefnN‘tu
-        117ndueallihclisn .1.11;ejes'diny 'ant ' l'ie noted though the '''The
-        g.vethth..e.Pre'" ,towards the funding of closure °", the commissioning
-        of the country has abundant sed delight that the man-
-        !,!?._(27,c._...... 'ties in complex head office crimple, of skilled
-        manpower for agement of Inter-bond we,,c...!1_7:, .,,,._. .,.._ major
-        sotInter-bond ffimoice and industrial take-off, what Finance and
-        Securities 27"!.."..c_._ aware .n materials LI Securities !joined (IFS).
-        was needed is the capital braved all odds. to companyi,,;..."7,1`,','::
-        n2 ....g. He was represented at resources at:ditimtiza. become the
-        firsolu,irtiriti; inst„itions could n'-:, laitstletmirt4 :Ihice
-        in'dit;CriletriitrZ by lib': j'71):lii:1 flUrnilet171 • • provide the
-        fill:1:"711CeilliVe5 1.1... !b gric;‘,:ingi company . his deputy. Dr.
-        Chime cttPab.,,Ities• Nwafor. for the industrial take off
-        capitalsc,..irt,,irsmsa, ;:tuns,,,,y. . Finance ,thIt.,,, pr. of the
-        state. IFS is one of Pr. P nye investors. - • • — 71 UN agencies six N37
-        b on world en
-      </div>
+      <section className="blog">
+        <div className="maingrid newspapers">
+          <img src={Taskfinances} alt="" className="interviewImage" />
+          <p>
+            Finance institutions have been urged to fund projects that will
+            accelerate the desired industrial take off the country. 
+          </p>
+          <p>
+            Abia state Governor, Dr Ogbonnaya Onu made the plea in Umuahia on
+            Tuesday at the commissioning of the head office complex of the
+            inter-bond finance and securities limited (IFS). He was represented
+            at the formal opening of the indigenous firm by his deputy, Dr Chima
+            Nwafor. The governor said that funding of such projects can no
+            longer be left to the conventioned banks governments and its
+            agencies
+          </p>
+          <p>
+            He noted, though the country has abundant skilled man power for
+            industrial takeoff, what was needed is the capital resources and
+            monetization processes to harness the available human capabilities.
+            Finance houses Dr Onu stated, should provide the capital base and
+            ensure credit liberalization to enable crucial industrial project
+            take off.
+          </p>
+          <p>
+            The governor expressed delight that the management of interbond
+            finance and securities braved all odds to become the first
+            indigenous finance outfit to provide the incentives for the
+            industrial take off of the states. IFS is one of the few finance
+            houses to have its head office outside Lagos.
+          </p>
+          <p>
+            The chairman of that company, Chief Sunny Nlewedim explained the
+            genuine desire of the organization to propel the private sectors
+            towards the funding of economic activities in the country.
+          </p>
+          <p>
+            He stated that the company was aware that traditional banking
+            institution could no longer meet the growing capital requirements of
+            perspective investors. The iron and steel senior staff association
+            of Nigeria said in Benin of Wednesday that the closure of Delta
+            steel complex in Aladia, a major source of raw material for the
+            rolling mills at Jos, Katsina and Oshogbo, was an attempt to destroy
+            the company and frustrate industrialization in the country.{" "}
+          </p>
+        </div>
+        <div className="side-bar">
+          <Sidenav />
+        </div>{" "}
+      </section>
     </>
   );
 }
