@@ -80,7 +80,7 @@ const Home = () => {
                     <div className="interview-grid">
                         <div><img src={Client4} alt="Sonny Nlewedim" /></div>
                         <div className="int-text">
-                            Chief Nlewidim decries defective policies  <br />
+                            Chief Nlewedim decries defective policies  <br />
                             <button className="myButton2" type="button"><Link to="/defective">see more</Link></button>
                         </div>
                     </div>

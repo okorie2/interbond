@@ -10,7 +10,7 @@ function Interim(props) {
       <section className="blog">
         <div className="maingrid newspapers">
           <img src={Interims} alt="" className="interviewImage" />
-          <h3>DEADLINE 1993 •Chief Sonny Nlewedum </h3>
+          <h3>DEADLINE 1993 •Chief Sonny Nlewedim </h3>
           <p>
             NIGERIANS, ever gripped by the fear of a long-lasting political
             crisis, perhaps of unimaginable magnitude, may have heaved a sigh of

@@ -11,7 +11,7 @@ function DefectivePolicies(props) {
       <Header />
       <section className="blog">
         <div className="maingrid newspapers">
-          <h2> Nlewedimmm decries defective policies </h2>{" "}
+          <h2> Nlewedim decries defective policies </h2>{" "}
           <img src={Defective} alt="" className="interviewImage" />
           <p>
             DEFECTIVE policies and lack of will on the part of the economic
@@ -21,7 +21,7 @@ function DefectivePolicies(props) {
             - sector of the economy.{" "}
           </p>{" "}
           <p>
-            Chief Sunny Nlewidim, a foremost industrialist and chief.executive
+            Chief Sunny Nlewedim, a foremost industrialist and chief.executive
             of Interbond Nigeria Limited stated this in a discussion on the
             state of the economy at the weekend. <br /> Chief Nlewedim took a
             swipe on the policy formulators who arrogate to themselves absolute
