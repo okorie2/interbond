@@ -17,6 +17,9 @@ function Header(props) {
           <li className="option item" onClick={closeMobileMenu}>
             <Link to="/interview">INTERVIEWS</Link>
           </li>
+          <li className="option item" onClick={closeMobileMenu}>
+            <Link to="/interbondindustries">INTERBOND INDUSTRIES</Link>
+          </li>
         </ul>
       </div>
     </div>
