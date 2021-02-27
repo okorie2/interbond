@@ -80,7 +80,7 @@ const Home = () => {
                     <div className="interview-grid">
                         <div><img src={Client4} alt="Sonny Nlewedim" /></div>
                         <div className="int-text">
-                            Chief Nlewidim decries defective policies decries defective policies <br />
+                            Chief Nlewidim decries defective policies  <br />
                             <button className="myButton2" type="button"><Link to="/defective">see more</Link></button>
                         </div>
                     </div>
@@ -122,24 +122,18 @@ const Home = () => {
                     <div className="interview-grid">
                         <div><img src={Client9} alt="Sonny Nlewedim" /></div>
                         <div className="int-text">
-                            Chief Nlewidim decries defective policies decries defective policies Chief Nlewidim decries defective policies decries defective policies<br />
+                            Political Associations in Abia<br />
                             <button className="myButton2" type="button"><Link to="/scrambles">see more</Link></button>
-                        </div>
-                    </div>
-                    <div className="interview-grid">
-                        <div><img src={Client3} alt="Sonny Nlewedim" /></div>
-                        <div className="int-text">
-                            Chief Nlewidim decries defective policies decries defective policies Chief Nlewidim decries defective policies decries defective policies<br />
-                            <button className="myButton2" type="button"><Link to="/reaping">see more</Link></button>
                         </div>
                     </div>
                     <div className="interview-grid">
                         <div><img src={Client6} alt="Sonny Nlewedim" /></div>
                         <div className="int-text">
-                            Chief Nlewidim decries defective policies decries defective policies Chief Nlewidim decries defective policies decries defective policies<br />
-                            <button className="myButton2" type="button"><Link to="/reaping">see more</Link></button>
+                            Industrialists Need Incentives From The Government<br />
+                            <button className="myButton2" type="button"><Link to="/industrialist">see more</Link></button>
                         </div>
                     </div>
+                  
                 </div>
             </div>
             <Footer />
