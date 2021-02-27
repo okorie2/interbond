@@ -30,19 +30,19 @@ function Reaping(props) {
             tower above all others who lack in them.
           </p>
           <p>
-            This could be true of Chief Sunny Nlewemdim, the flamboyant Chairman
+            This could be true of Chief Sunny Nlewedim, the flamboyant Chairman
             and Chief Executive of Interbond Nigeria Ltd and Interbond Finance
             and Securities Ltd.
           </p>
           <p>
-            In his early forties Chief Nlewemdim has displayed a rare business
+            In his early forties Chief Nlewedim has displayed a rare business
             acumen and investment wisdom by daring to invest in an economy that
             is as perilous and unpredictable as it is gloomy. It was indeed his
             sheer sense of patriotism and theurge to take up challenges that
             drove him to the top where he is today comfortably seated.
           </p>
           <p>
-            Chief Sonny Nlewemdim, whose research saw wisdom in adding glamor in
+            Chief Sonny Nlewedim, whose research saw wisdom in adding glamor in
             lighting and lamps manufacturing and marketing, started first with
             the importation of electrical chandeliers and later went into its
             local manufacturing in partnership with foreign associates. Within a
@@ -51,19 +51,19 @@ function Reaping(props) {
             strong advocacy for industrialization of the nation's economy
             through private sector effort over the years has encouraged our
             youths to adopt the production of goods and services as a necessary
-            step to economic development and to give them a push, Chief
-            Nlewemdim was chosen last year as one of the investors that
-            performed creditably in championing the economic vista of Nigeria in
+            step to economic development and to give them a push, Chief Nlewedim
+            was chosen last year as one of the investors that performed
+            creditably in championing the economic vista of Nigeria in
             acknowledgement of the place of the private sector effort in the
             nation's economic rejuvenation.
           </p>
           <p>
-            An epitome of success Chief Sonny Nlewemdim even at first sight
-            looks successful, smells success and in fact dresses successfully
-            too with his looks and elegance, coupled with the confidence he
-            exudes in discussing about industrialization and economy, the
-            Interbond Group Chairman and Chief Executive would only have the sky
-            as his limit to greater achievements.
+            An epitome of success Chief Sonny Nlewedim even at first sight looks
+            successful, smells success and in fact dresses successfully too with
+            his looks and elegance, coupled with the confidence he exudes in
+            discussing about industrialization and economy, the Interbond Group
+            Chairman and Chief Executive would only have the sky as his limit to
+            greater achievements.
           </p>
           <p>
             For even in terms of competence and good mission, his ability of
