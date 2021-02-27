@@ -12,7 +12,7 @@ function Industrialist(props) {
           <img src={Industrialists} alt="" className="interviewImage" />,
           <h3>INDUSTRALIST NEED INCENTIVES FROM THE GOVERMENT</h3>
           <p>
-            Chief Sonny Nkwedim, chairman of Interbond Nigeria Limited,
+            Chief Sonny Nlwedim, chairman of Interbond Nigeria Limited,
             manufactures of electrical appliances and accessories is to humble,
             almost why that on a first encounter, one would be quick to ask how
             he has been able to build for himself a business empire which also
@@ -24,7 +24,7 @@ function Industrialist(props) {
             his Surname. For a Helman of an electrical company, “diming’ the
             light may be the least expected of him. But even if the
             sophisticated chandeliers which he sells with other items at his
-            Adeniyi Jones, Ikeja, head office, dim the light, Nkewedim’s warmth
+            Adeniyi Jones, Ikeja, head office, dim the light, Nlewedim’s warmth
             and sense of humor are of high voltage. Humble as he is, he likes
             challenges which is perhaps why he is into the chandelier market for
             the rich.
