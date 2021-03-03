@@ -10,6 +10,8 @@ import Interim from "./Screens/Interviews/Interim";
 import Scrambles from "./Screens/Interviews/Scrambles";
 import Reaping from "./Screens/Interviews/Reaping";
 import InterbondIndustries from "./Screens/InterbondIndustries";
+import Ndigbo from "./Screens/Interviews/Ndigbo";
+import Race from "./Screens/Interviews/Race";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
         <Route exact path="/scrambles" component={Scrambles} />
         <Route exact path="/reaping" component={Reaping} />
         <Route exact path="/interview" component={Reaping} />
+        <Route exact path="/ndigbo" component={Ndigbo} />
+        <Route exact path="/race" component={Race} />
         <Route
           exact
           path="/interbondindustries"

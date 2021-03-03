@@ -15,6 +15,8 @@ import Client8 from '../../Assets/images/client8.jpg'
 import Client9 from '../../Assets/images/client9.jpg'
 import Client10 from '../../Assets/images/client10b.jpg'
 import Client11 from '../../Assets/images/client11.jpg'
+import Client12 from '../../Assets/images/client12.jpg'
+import Client13 from '../../Assets/images/client13.jpg'
 import Footer from '../../components/Footer/Footer';
 
 const Home = () => {
@@ -127,9 +129,24 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="interview-grid">
+                        <div><img src={Client12} alt="Sonny Nlewedim" /></div>
+                        <div className="int-text">
+                        A Race's Inconsistency 
+<br />
+                            <button className="myButton2" type="button"><Link to="/race">see more</Link></button>
+                        </div>
+                    </div>
+                    <div className="interview-grid">
+                        <div><img src={Client13} alt="Sonny Nlewedim" /></div>
+                        <div className="int-text">
+                        Who Speaks For Ndigbo?<br />
+                            <button className="myButton2" type="button"><Link to="/ndigbo">see more</Link></button>
+                        </div>
+                    </div>
+                    <div className="interview-grid">
                         <div><img src={Client6} alt="Sonny Nlewedim" /></div>
                         <div className="int-text">
-                            Industrialists Need Incentives From The Government<br />
+                        Industrialists Need Incentives From The Government <br />
                             <button className="myButton2" type="button"><Link to="/industrialist">see more</Link></button>
                         </div>
                     </div>
