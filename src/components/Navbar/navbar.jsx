@@ -15,7 +15,7 @@ const Navbar = () => {
         <div>
           <EcoIcon className="logo title" />
           <Link to="/">
-            <b className="title"> I N T E R B O N D</b>
+            <b className="title">I N T E R B O N D</b>
           </Link>
           <ul className={click ? "nav-options active" : "nav-options"}>
             <li className="option item" onClick={closeMobileMenu}>
@@ -24,8 +24,6 @@ const Navbar = () => {
             <li className="option item" onClick={closeMobileMenu}>
               <Link to="/interbondindustries">INTERBOND INDUSTRIES</Link>
             </li>
-
-            
           </ul>
         </div>
 
