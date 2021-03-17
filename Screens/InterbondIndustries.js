@@ -9,7 +9,7 @@ import {
   ButtonPlay,
 } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
-import "../Screens/Interbondindustries.css";
+import "./Interbondindustries.css";
 import Chand1 from "../Assets/images/chandelier-lng.jpg";
 import Chand2 from "../Assets/images/chandelier1.jpg";
 import Chand3 from "../Assets/images/chandelier2.jpg";

@@ -1,3 +1,8 @@
+---
+title: Abia Needs a Visionary Leader
+coverImage: /covers/abia-needs-a-visionary-leader.jpg
+---
+
 It is not certain exact date when Nigerians will troop out again to
 the polling booths to cast their votes to elect politicians of their
 choice.What is however certain now is the underground politicking by
