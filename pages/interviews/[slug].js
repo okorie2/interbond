@@ -6,6 +6,7 @@ import { Head } from "next/document";
 import { Box, Flex, Heading, Img } from "@chakra-ui/react";
 import Link from "next/link";
 import PostContent from "../../components/PostContent";
+import Header from "../../components/Header";
 
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter();
@@ -21,10 +22,28 @@ export default function Post({ post, morePosts, preview }) {
     return <div>Loading...</div>;
   }
 
-  console.log(morePosts);
   return (
     <Fragment>
-      <article>
+      <Head>
+        <title>Sonny Nlewedim</title>
+        <meta
+          name="description"
+          content="Chief Sonny Nlewedim Detailed Portfolio. It shows his progression as a political thought leader and industrialist."
+        />
+      </Head>
+
+      <Box
+        bg="#F7FAFC"
+        shadow="md"
+        position="sticky"
+        top="0"
+        w="100%"
+        py="1rem"
+        px="2rem"
+      >
+        <Header />
+      </Box>
+      <Box pt="3rem" as="article" mx="10%">
         {/* <Head>
           <title>{post.title}</title>
           <meta property="og:image" content={post.ogImage.url} />
@@ -33,23 +52,39 @@ export default function Post({ post, morePosts, preview }) {
         <Flex>
           <Box width={{ base: "100%", lg: "70%" }}>
             <Box>
-              <Heading>{post.title}</Heading>
-              <Img src={post.coverImage} />
+              <Heading mb="1rem">{post.title}</Heading>
+              <Img src={post.heroImage} />
             </Box>
 
             <PostContent content={post.content} />
           </Box>
-          <Box width={{ base: "100%", lg: "30%" }}>
-            {morePosts.map((post) => {
-              return (
-                <Box>
-                  <Link href={post.slug}>{post.slug}</Link>
-                </Box>
-              );
-            })}
-          </Box>
+          <Fragment>
+            <Box
+              position="fixed"
+              right="0"
+              top="30%"
+              width={{ base: "100%", lg: "30%" }}
+              pr="3rem"
+            >
+              <Heading mb="1rem" size="md" as="h4">
+                More Interviews
+              </Heading>
+              <Box>
+                {morePosts.map(({ params }, index) => {
+                  return (
+                    <Box key={index} mb="1rem">
+                      <Link href={`/interviews/${params.slug}`}>
+                        {params.title}
+                      </Link>
+                      <hr />
+                    </Box>
+                  );
+                })}
+              </Box>
+            </Box>
+          </Fragment>
         </Flex>
-      </article>
+      </Box>
     </Fragment>
   );
 }
@@ -63,12 +98,11 @@ export async function getStaticProps({ params }) {
     "content",
     "ogImage",
     "coverImage",
+    "heroImage",
   ]);
   const content = await markdownToHtml(post.content || "");
-  const { paths: morePostsPaths } = await getStaticPaths();
-  const morePosts = morePostsPaths
-    .map((path) => path.params)
-    .sort(() => 0.5 - Math.random());
+  const { paths: staticPaths } = await getStaticPaths();
+  const morePosts = staticPaths.sort(() => 0.5 - Math.random());
 
   return {
     props: {
@@ -82,13 +116,14 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const posts = getAllPosts(["slug"]);
+  const posts = getAllPosts(["slug", "title"]);
 
   return {
     paths: posts.map((post) => {
       return {
         params: {
           slug: post.slug,
+          title: post.title,
         },
       };
     }),

@@ -1,6 +1,7 @@
 ---
 title: DEADLINE 1993 Chief Sonny Nlewedim
 coverImage: /covers/deadline-1993-chief-sonny-nlewedim.jpg
+heroImage: /assets/images/interim.jpg
 ---
 
 NIGERIANS, ever gripped by the fear of a long-lasting political

@@ -1,6 +1,7 @@
 ---
-title: who-speaks-for-ndi-igbo?
+title: Who Speaks for Ndi Igbo?
 coverImage: /covers/who-speaks-for-ndi-igbo.jpg
+heroImage: /assets/images/ndigbo.jpg
 ---
 
 Ndi Igbo have had to contend with a situation of the absence of a

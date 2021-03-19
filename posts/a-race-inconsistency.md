@@ -1,6 +1,7 @@
 ---
 title: A Race Inconsistency
 coverImage: /covers/a-race-inconsistency.jpg
+heroImage: /assets/images/race.jpg
 ---
 
 Could it be one of the uncertainties that has become the lot of a

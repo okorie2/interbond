@@ -1,6 +1,7 @@
 ---
 title: Political Associations In Abia
 coverImage: /covers/political-associations-in-abia.jpg
+heroImage: /assets/images/scrambles.jpg
 ---
 
 If these last four groups merge to become one in future, according to the sources they are going to give the ANC in the state a good fight as the latter is seen as being centered round an individual.

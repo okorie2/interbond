@@ -1,6 +1,7 @@
 ---
 title: Abia Needs a Visionary Leader
 coverImage: /covers/abia-needs-a-visionary-leader.jpg
+heroImage: /assets/images/visionary.jpg
 ---
 
 It is not certain exact date when Nigerians will troop out again to

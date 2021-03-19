@@ -1,12 +1,24 @@
-import { Flex, Text, Heading, Box } from "@chakra-ui/react";
+import { Flex, Text, Heading, Box, Img } from "@chakra-ui/react";
 
 function Footer() {
   return (
     <Box color="white" p="3rem" bg="#1D1C1E">
       <Flex flexWrap="wrap" justify="space-between">
-        <Heading color="brand.700" as="h6" size="md" textTransform="uppercase">
-          Interbond
-        </Heading>
+        <Flex align="baseline">
+          <Box mr=".5rem">
+            <Img src="/favicon.ico" alt="interbond" />
+          </Box>
+
+          <Heading
+            color="brand.700"
+            as="h6"
+            size="md"
+            textTransform="uppercase"
+          >
+            Interbond
+          </Heading>
+        </Flex>
+
         <Flex>
           <Text mx=".5rem">OUR COMPANY</Text>
           <Text mx=".5rem">INTERVIEWS</Text>

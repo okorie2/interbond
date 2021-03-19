@@ -1,6 +1,7 @@
 ---
 title: Nlewedim decries defective policies
 coverImage: /covers/chief-nlewedim-decries-defective-policies.jpg
+heroImage: /assets/images/defective-policies.jpg
 ---
 
 DEFECTIVE policies and lack of will on the part of the economic

@@ -12,6 +12,7 @@ import {
   Grid,
 } from "@chakra-ui/react";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 export default function Home({ allPosts }) {
   return (
@@ -25,23 +26,13 @@ export default function Home({ allPosts }) {
           rgba(22, 20, 22, 0.73)
         ),
         url(/assets/images/mainbg.jpg)"
-        p="3rem 5rem"
+        backgroundRepeat="no-repeat"
+        backgroundSize="cover"
+        p={{ base: "1rem", lg: "3rem 5rem" }}
         color="white"
         mb="4rem"
       >
-        <Flex align="center" justify="space-between">
-          <Heading as="h6" size="md" textTransform="uppercase">
-            Interbond
-          </Heading>
-          <Flex>
-            <Box mx=".5rem">
-              <Link href="/#interviews">Interviews</Link>
-            </Box>
-            <Box mx=".5rem">
-              <Link href="/industries">Interbond Industries</Link>
-            </Box>
-          </Flex>
-        </Flex>
+        <Header />
 
         <Flex height="100%" align="center">
           <Box>
