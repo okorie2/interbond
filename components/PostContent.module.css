@@ -1,0 +1,16 @@
+.markdown p,
+.markdown ul,
+.markdown ol,
+.markdown blockquote {
+  margin: 1.5rem 0;
+}
+
+.markdown h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.markdown h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
