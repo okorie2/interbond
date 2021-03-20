@@ -13,10 +13,18 @@ import {
 } from "@chakra-ui/react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Head from "next/head";
 
 export default function Home({ allPosts }) {
   return (
     <Fragment>
+      <Head>
+        <title>Sonny Nlewedim</title>
+        <meta
+          name="description"
+          content="Chief Sonny Nlewedim Detailed Portfolio. It shows his progression as a political thought leader and industrialist."
+        />
+      </Head>
       <Box
         height="100vh"
         backgroundImage="
@@ -31,6 +39,7 @@ export default function Home({ allPosts }) {
         p={{ base: "1rem", lg: "3rem 5rem" }}
         color="white"
         mb="4rem"
+        zIndex="10"
       >
         <Header />
 

@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import { Fragment } from "react";
 import { getAllPosts, getPostBySlug } from "../../lib/api";
 import markdownToHtml from "../../lib/markdownToHtml";
-import { Head } from "next/document";
+import Head from "next/head";
 import { Box, Flex, Heading, Img } from "@chakra-ui/react";
 import Link from "next/link";
 import PostContent from "../../components/PostContent";
@@ -26,10 +26,7 @@ export default function Post({ post, morePosts, preview }) {
     <Fragment>
       <Head>
         <title>Sonny Nlewedim</title>
-        <meta
-          name="description"
-          content="Chief Sonny Nlewedim Detailed Portfolio. It shows his progression as a political thought leader and industrialist."
-        />
+        <meta name="description" content={post.description} />
       </Head>
 
       <Box
@@ -40,16 +37,12 @@ export default function Post({ post, morePosts, preview }) {
         w="100%"
         py="1rem"
         px="2rem"
+        zIndex="10"
       >
         <Header />
       </Box>
       <Box pt="3rem" as="article" mx="10%">
-        {/* <Head>
-          <title>{post.title}</title>
-          <meta property="og:image" content={post.ogImage.url} />
-        </Head> */}
-
-        <Flex>
+        <Flex display={{ base: "block", lg: "flex" }}>
           <Box width={{ base: "100%", lg: "70%" }}>
             <Box>
               <Heading mb="1rem">{post.title}</Heading>
@@ -60,7 +53,7 @@ export default function Post({ post, morePosts, preview }) {
           </Box>
           <Fragment>
             <Box
-              position="fixed"
+              position={{ base: "relative", lg: "fixed" }}
               right="0"
               top="30%"
               width={{ base: "100%", lg: "30%" }}
@@ -95,6 +88,7 @@ export async function getStaticProps({ params }) {
     "date",
     "slug",
     "author",
+    "description",
     "content",
     "ogImage",
     "coverImage",
