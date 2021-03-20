@@ -7,6 +7,7 @@ import { Box, Flex, Heading, Img } from "@chakra-ui/react";
 import Link from "next/link";
 import PostContent from "../../components/PostContent";
 import Header from "../../components/Header";
+import Footer from "../../components/Footer.jsx";
 
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter();
@@ -78,6 +79,7 @@ export default function Post({ post, morePosts, preview }) {
           </Fragment>
         </Flex>
       </Box>
+      <Footer />
     </Fragment>
   );
 }

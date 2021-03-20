@@ -1,4 +1,7 @@
 import { Flex, Text, Heading, Box, Img } from "@chakra-ui/react";
+import Link from "next/link";
+import { FaPhone, FaLinkedin } from "react-icons/fa";
+import { VscGlobe } from "react-icons/vsc";
 
 function Footer() {
   return (
@@ -9,18 +12,15 @@ function Footer() {
             <Img src="/favicon.ico" alt="interbond" />
           </Box>
 
-          <Heading
-            color="brand.700"
-            as="h6"
-            size="md"
-            textTransform="uppercase"
-          >
+          <Heading color="#8a2a21" as="h6" size="md" textTransform="uppercase">
             Interbond
           </Heading>
         </Flex>
 
         <Flex>
-          <Text mx=".5rem">OUR COMPANY</Text>
+          <Link href="/industries">
+            <Text mx=".5rem">OUR COMPANY</Text>
+          </Link>
           <Text mx=".5rem">INTERVIEWS</Text>
         </Flex>
       </Flex>
@@ -35,9 +35,28 @@ function Footer() {
         </Box>
 
         <Box mr="2rem">
-          <Text>Contact Us (Central Office)</Text>
-          <Text>Phone: 08085034987</Text>
-          <Text>M: interbondnig.com</Text>
+          <Text>Contact Us</Text>
+          <Text display="flex">
+            <FaPhone />
+            <Box display="inline-block" ml="1rem">
+              08085034987
+            </Box>
+          </Text>
+          <Text display="flex">
+            <VscGlobe />
+            <Box display="inline-block" ml="1rem">
+              interbondnig.com
+            </Box>
+          </Text>
+          <a href="https://www.linkedin.com/in/sonny-u-nlewedim-22605623">
+            {" "}
+            <Text display="flex">
+              <FaLinkedin />
+              <Box display="inline-block" ml="1rem">
+                Sonny Nlewedim
+              </Box>
+            </Text>
+          </a>
         </Box>
       </Flex>
     </Box>

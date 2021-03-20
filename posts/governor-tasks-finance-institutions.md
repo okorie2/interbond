@@ -12,6 +12,6 @@ He noted, though the country has abundant skilled man power for industrial takeo
 
 The governor expressed delight that the management of interbond finance and securities braved all odds to become the first indigenous finance outfit to provide the incentives for the industrial take off of the states. IFS is one of the few finance houses to have its head office outside Lagos.
 
-The chairman of that company, Chief Sunny Nlewedim explained the genuine desire of the organization to propel the private sectors towards the funding of economic activities in the country.
+The chairman of that company, Chief Sonny Nlewedim explained the genuine desire of the organization to propel the private sectors towards the funding of economic activities in the country.
 
 He stated that the company was aware that traditional banking institution could no longer meet the growing capital requirements of perspective investors. The iron and steel senior staff association of Nigeria said in Benin of Wednesday that the closure of Delta steel complex in Aladia, a major source of raw material for the rolling mills at Jos, Katsina and Oshogbo, was an attempt to destroy the company and frustrate industrialization in the country.
