@@ -68,7 +68,7 @@ export default function Home({ allPosts }) {
             width={{ base: "100%", lg: "60%" }}
             flexDirection="column"
           >
-            <Heading as="h4" size="md">
+            <Heading className="shadow-header" as="h4" size="md">
               CHIEF SONNY NLEWEDIM
             </Heading>
             <Text>
@@ -88,7 +88,7 @@ export default function Home({ allPosts }) {
               Asia.
             </Text>
             <br />
-            <Heading as="h4" size="md">
+            <Heading className="shadow-header" as="h4" size="md">
               REPUTATIONS
             </Heading>
             <Text>
@@ -103,10 +103,17 @@ export default function Home({ allPosts }) {
             </Text>
           </Flex>
         </Flex>
+      </Container>
 
-        <Box mb="4rem">
+      <Box
+        py="2rem"
+        boxShadow="0px -10px 16px rgb(211, 211, 212)"
+        bg="#F8F8FF"
+        mb="4rem"
+      >
+        <Container maxW="container.lg">
           <Box mb="2rem">
-            <Heading as="h3" size="lg">
+            <Heading className="shadow-header" as="h3" size="lg">
               POSITION AND ACCOMPLISHMENTS
             </Heading>
 
@@ -139,7 +146,7 @@ export default function Home({ allPosts }) {
             </Text>
           </Box>
           <Box mb="2rem">
-            <Heading as="h3" size="lg">
+            <Heading className="shadow-header" as="h3" size="lg">
               AWARDS AND HONORS
             </Heading>
 
@@ -160,20 +167,22 @@ export default function Home({ allPosts }) {
               NATIONAL ASSOCIATION OF WOMEN JOURNALISTS CERTIFICATE OF HONOR
             </Text>
           </Box>
-        </Box>
-      </Container>
+        </Container>
+      </Box>
 
       <Box
         px="2rem"
-        bg="black"
+        bg="#000000"
         color="white"
         textAlign="center"
-        py="3rem"
+        py="10rem"
         mb="4rem"
       >
         <Box mb="2rem">
-          <Heading size="lg">INTERBOND INDUSTRIES</Heading>
-          <Heading size="sm">
+          <Heading size="lg" color="#8a2a21">
+            INTERBOND INDUSTRIES
+          </Heading>
+          <Heading color="#8a2a21" size="sm">
             We provide the best lightning and lightning facilities for customer
             satisfaction
           </Heading>
@@ -186,31 +195,31 @@ export default function Home({ allPosts }) {
           justifyContent="center"
         >
           <Box>
-            <Heading as="h4" size="sm">
+            <Heading color="#8a2a21" as="h4" size="sm">
               Establishment
             </Heading>
-            <Text>
+            <Text fontWeight="bold" lineHeight="1.2rem" color="#c0827c">
               Interbond Electrical has been established for over 10 years as one
               of the leading ,anufacturers and suppliers of luminiars ranging
               from spot lights, wall and porch lanterns to very big chandelier.
             </Text>
           </Box>
           <Box>
-            <Heading as="h4" size="sm">
+            <Heading color="#8a2a21" as="h4" size="sm">
               {" "}
               Fittings Varieties
             </Heading>
-            <Text>
+            <Text fontWeight="bold" lineHeight="1.2rem" color="#c0827c">
               our extensive range of light fittings are manufactured in both
               Nigeria and overseas by renownedcraftmen talented in the intricate
               science of decorative lighting
             </Text>
           </Box>
           <Box>
-            <Heading as="h4" size="sm">
+            <Heading color="#8a2a21" as="h4" size="sm">
               Customer Service
             </Heading>
-            <Text>
+            <Text fontWeight="bold" lineHeight="1.2rem" color="#c0827c">
               customers are invited to visit our showrooms where they can
               receive advise demonstration by our team of highly trained
               lighting experts
@@ -218,19 +227,22 @@ export default function Home({ allPosts }) {
           </Box>
         </Grid>
 
-        <Link href="/interbondindustries">
-          <Button colorScheme="brand">EXPLORE PRODUCTS</Button>
+        <Link href="/industries">
+          <Button bg="white" lineHeight="1" color="#8a2a21">
+            EXPLORE PRODUCTS
+          </Button>
         </Link>
       </Box>
 
       <Container mb="8rem" maxW="container.xl">
         <Heading id="interviews" mb="2rem" textAlign="center" as="h2" size="xl">
-          Interviews of Sunny Nlewedim
+          Interviews of Sonny Nlewedim
         </Heading>
         <Grid
           templateColumns="repeat(auto-fit, minmax(300px, 1fr))"
           rowGap="1rem"
           columnGap="4rem"
+          justifyItems="center"
         >
           {allPosts.map((post) => {
             return (
@@ -245,18 +257,37 @@ export default function Home({ allPosts }) {
                 />
                 <Box
                   borderBottomRadius="md"
-                  bg="white"
+                  bg="#F3F1F1"
                   boxShadow="lg"
                   px=".5rem"
                   py="1.5rem"
                 >
-                  <Heading h="40px" mb="1rem" as="h5" size="sm">
+                  <Heading
+                    textAlign="center"
+                    h="40px"
+                    mb="1rem"
+                    as="h5"
+                    size="sm"
+                  >
                     {post.title}
                   </Heading>
 
                   <Link href={`/interviews/${post.slug}`}>
-                    <Flex justify="flex-end">
-                      <Button size="sm" colorScheme="brand">
+                    <Flex justify="center">
+                      <Button
+                        boxShadow="inset 0px 1px 0px 0px #f5e9ef"
+                        background="linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%)"
+                        backgroundColor="#f9f9f9"
+                        borderRadius="6px"
+                        border="1px solid #dbbadb"
+                        color="#8a2a21"
+                        fontFamily="Arial"
+                        fontSize="15px"
+                        fontWeight="bold"
+                        padding="6px 24px"
+                        textDecoration="none"
+                        textShadow="0px 1px 0px #ffffff"
+                      >
                         See More
                       </Button>
                     </Flex>

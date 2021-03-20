@@ -1,6 +1,7 @@
 import { ChakraProvider, ColorModeProvider } from "@chakra-ui/react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import "../styles/globals.css";
 import { useEffect } from "react";
 import Fonts from "../lib/Fonts";
 import theme from "../lib/theme";
