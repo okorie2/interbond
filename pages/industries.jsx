@@ -61,6 +61,7 @@ function Industries() {
             gridRow="span 6"
             src="/assets/images/chandelier-lng.jpg"
             alt="chandlier"
+            data-aos="zoom-in-up"
           />
           <Img
             w="100%"
@@ -69,6 +70,7 @@ function Industries() {
             gridRow="span 3"
             src="/assets/images/chandelier1.jpg"
             alt="chandlier"
+            data-aos="zoom-in-up"
           />
           <Img
             w="100%"
@@ -78,11 +80,18 @@ function Industries() {
             gridRow="span 3"
             src="/assets/images/chandelier2.jpg"
             alt="chandlier"
+            data-aos="fade-left"
           />
         </Grid>
       </Box>
 
-      <Box bg="brand.900" color="white">
+      <Box
+        py="2rem"
+        boxShadow="-4px -6px 8px gray"
+        bg="rgb(109, 7, 7)"
+        color="white"
+        mb="4rem"
+      >
         <Box mb="2rem" textAlign="center">
           <Heading>Interbond Lamp Shades</Heading>
           <Text mx="auto" w="80%">
@@ -100,8 +109,8 @@ function Industries() {
           w={{ base: "90%", md: "80%", lg: "70%" }}
         >
           <Img src="/assets/images/lamp1.jpg" alt="Interbond lamp shade" />
-          <Img src="/assets/images/lamp2.jpg" alt="Interbond lamp shade" />
           <Img src="/assets/images/lamp3.jpg" alt="Interbond lamp shade" />
+          <Img src="/assets/images/lamp2.jpg" alt="Interbond lamp shade" />
         </Grid>
       </Box>
 

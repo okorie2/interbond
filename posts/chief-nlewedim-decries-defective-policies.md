@@ -2,6 +2,7 @@
 title: Nlewedim decries defective policies
 coverImage: /covers/chief-nlewedim-decries-defective-policies.jpg
 heroImage: /assets/images/defective-policies.jpg
+description: Chief Sonny Nlewedim decries defective policies
 ---
 
 DEFECTIVE policies and lack of will on the part of the economic
@@ -9,7 +10,7 @@ managers have been blamed for the non realisation of our
 industrialisation dreams.Added to the above is the non - involvement
 of investors in policy formulation as it concerns the productive sub-sector of the economy.
 
-Chief Sunny Nlewedim, a foremost industrialist and chief.executive
+Chief Sonny Nlewedim, a foremost industrialist and chief.executive
 of Interbond Nigeria Limited stated this in a discussion on the
 state of the economy at the weekend.
 

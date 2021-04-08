@@ -8,7 +8,7 @@ Internationally renowned economist, Professor Adam Smith, in his popular book, â
 
 This marketability phenomenon could also apply to individual businessmen and politics for an ideal competition-whether for political power and economic gain, the market value of individuals often tend to decide how they succeed or fail in the endeavor. An intellectually, morally and physically dislocated individual will often be seen as a taboo in economic or political market. In business life, the key phrases are courage and determination of these and personal charisma, should ideally make one to succeed and tower above all others who lack in them.
 
-This could be true of Chief Sunny Nlewedim, the flamboyant Chairman and Chief Executive of Interbond Nigeria Ltd and Interbond Finance and Securities Ltd.
+This could be true of Chief Sonny Nlewedim, the flamboyant Chairman and Chief Executive of Interbond Nigeria Ltd and Interbond Finance and Securities Ltd.
 
 In his early forties Chief Nlewedim has displayed a rare business acumen and investment wisdom by daring to invest in an economy that is as perilous and unpredictable as it is gloomy. It was indeed his sheer sense of patriotism and theurge to take up challenges that drove him to the top where he is today comfortably seated.
 
