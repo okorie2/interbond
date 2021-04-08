@@ -132,8 +132,8 @@ export default function Home({ allPosts }) {
               Ogbor Hill, Aba. He later proceeded to Lagos State University,
               where he obtained a Diploma in Law. He began his career at GBO
               Olivanti (a subsidiary of UAC Nigeria) as a Supervisor. He later
-              moved to RT Briscoe Motors as an Assistant Marketing Manager. He
-              later disengaged from the services of the company set up his own
+              moved to RT Briscoe Motors as the Marketing Manager. He later
+              disengaged from the services of the company set up his own
               business.In 1992, he was honoured with the Corporate Press
               Services Men of Achievement Award.
             </Text>
