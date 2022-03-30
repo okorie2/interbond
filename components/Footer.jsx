@@ -45,7 +45,7 @@ function Footer() {
           <Text display="flex">
             <VscGlobe />
             <Box display="inline-block" ml="1rem">
-              interbondnig.com
+              interbondng.net
             </Box>
           </Text>
           <a href="https://www.linkedin.com/in/sonny-u-nlewedim-22605623">
