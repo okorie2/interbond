@@ -14,7 +14,7 @@ export default function Post({ post, morePosts, preview }) {
   if (!router.isFallback && !post?.slug) {
     return (
       <Box>
-        <Heading>Opps, page not found!</Heading>
+        <Heading>Oops, page not found!</Heading>
       </Box>
     );
   }
