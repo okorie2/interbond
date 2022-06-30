@@ -13,6 +13,11 @@ function Industries() {
           name="description"
           content="Interbond Industries: Producers of all kinds of Electrical Fittings and Lights. CEO: Sonny Nlewedim."
         />
+        <meta
+          name="og:Interbond Industries"
+          property="og:Interbond Industries"
+          content="Interbond Industries: Producers of all kinds of Electrical Fittings and Lights. CEO: Sonny Nlewedim."
+        ></meta>
       </Head>
 
       <Box
@@ -76,7 +81,6 @@ function Industries() {
             w="100%"
             h="100%"
             objectFit="cover"
-            gridRow="span 3"
             gridRow="span 3"
             src="/assets/images/chandelier2.jpg"
             alt="chandlier"
