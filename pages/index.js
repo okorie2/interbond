@@ -24,6 +24,11 @@ export default function Home({ allPosts }) {
           name="description"
           content="Chief Sonny Nlewedim Detailed Portfolio. It shows his progression as a political thought leader and industrialist."
         />
+        <meta
+          name="og:Sonny Nlewedim"
+          property="og:Sonny Nlewedim"
+          content="Chief Sonny Nlewedim Detailed Portfolio. It shows his progression as a political thought leader and industrialist."
+        ></meta>
       </Head>
       <Box
         height="100vh"
