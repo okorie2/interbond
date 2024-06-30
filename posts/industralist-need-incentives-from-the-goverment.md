@@ -2,6 +2,7 @@
 title: Industralist Need Incentives from the Goverment
 coverImage: /covers/industralist-need-incentives-from-the-goverment.jpg
 heroImage: /assets/images/industrialists.jpg
+rank: 8
 ---
 
 Chief Sonny Nlwedim, chairman of Interbond Nigeria Limited,

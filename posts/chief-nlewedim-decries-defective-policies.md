@@ -3,6 +3,7 @@ title: Nlewedim decries defective policies
 coverImage: /covers/chief-nlewedim-decries-defective-policies.jpg
 heroImage: /assets/images/defective-policies.jpg
 description: Chief Sonny Nlewedim decries defective policies
+rank: 11
 ---
 
 DEFECTIVE policies and lack of will on the part of the economic

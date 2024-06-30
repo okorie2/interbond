@@ -2,6 +2,7 @@
 title: A Race Inconsistency
 coverImage: /covers/a-race-inconsistency.jpg
 heroImage: /assets/images/race.jpg
+rank: 13
 ---
 
 Could it be one of the uncertainties that has become the lot of a

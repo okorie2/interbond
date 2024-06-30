@@ -2,6 +2,7 @@
 title: Interbond Begins Local Production
 coverImage: /covers/interbond-begins-local-production.jpg
 heroImage: /assets/images/interbond.jpg
+rank: 7
 ---
 
 Chief Nlewedim said that when the company goes into production next year, prices of the products will go down drastically because of reduced cost of production since most of the raw materials will be sourced locally, like clay for ceramics in Umuahia.

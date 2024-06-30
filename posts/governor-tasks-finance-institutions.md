@@ -2,6 +2,7 @@
 title: Governor Tasks Finance Institutions
 coverImage: /covers/governor-tasks-finance-institutions.jpg
 heroImage: /assets/images/taskfinance.jpg
+rank: 9
 ---
 
 Finance institutions have been urged to fund projects that will accelerate the desired industrial take off the country.

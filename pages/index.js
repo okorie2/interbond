@@ -14,6 +14,7 @@ import {
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Head from "next/head";
+import Slides from "../components/Slideshow";
 
 export default function Home({ allPosts }) {
   return (
@@ -117,6 +118,8 @@ export default function Home({ allPosts }) {
         mb="4rem"
       >
         <Container maxW="container.lg">
+          <Slides />
+          <br/><br/>
           <Box mb="2rem">
             <Heading className="shadow-header" as="h3" size="lg">
               POSITION AND ACCOMPLISHMENTS
@@ -140,7 +143,7 @@ export default function Home({ allPosts }) {
             <br />
             <Text>
               Born in Umuawa Alaocha, Ohuhu, Umuahia in Abia State,
-              Nigeria,Chief Nlebedim attended Comprehensive Secondary School
+              Nigeria,Chief Nlewedim attended Comprehensive Secondary School
               Ogbor Hill, Aba. He later proceeded to Lagos State University,
               where he obtained a Diploma in Law. He began his career at GBO
               Olivanti (a subsidiary of UAC Nigeria) as a Supervisor. He later
@@ -177,17 +180,17 @@ export default function Home({ allPosts }) {
 
       <Box
         px="2rem"
-        bg="#000000"
+        bg="#040273"
         color="white"
         textAlign="center"
         py="10rem"
         mb="4rem"
       >
         <Box mb="2rem">
-          <Heading size="lg" color="#8a2a21">
+          <Heading size="lg" color="#fff">
             INTERBOND INDUSTRIES
           </Heading>
-          <Heading color="#8a2a21" size="sm">
+          <Heading color="#fff" size="sm">
             We provide the best lightning and lightning facilities for customer
             satisfaction
           </Heading>
@@ -200,31 +203,31 @@ export default function Home({ allPosts }) {
           justifyContent="center"
         >
           <Box>
-            <Heading color="#8a2a21" as="h4" size="sm">
+            <Heading color="#fff" as="h4" size="sm"  >
               Establishment
             </Heading>
-            <Text fontWeight="bold" lineHeight="1.2rem" color="#c0827c">
+            <Text fontWeight="bold" lineHeight="1.2rem" color="#fff">
               Interbond Electrical has been established for over 10 years as one
               of the leading ,anufacturers and suppliers of luminiars ranging
               from spot lights, wall and porch lanterns to very big chandelier.
             </Text>
           </Box>
           <Box>
-            <Heading color="#8a2a21" as="h4" size="sm">
+            <Heading color="#fff" as="h4" size="sm">
               {" "}
               Fittings Varieties
             </Heading>
-            <Text fontWeight="bold" lineHeight="1.2rem" color="#c0827c">
+            <Text fontWeight="bold" lineHeight="1.2rem" color="#fff">
               our extensive range of light fittings are manufactured in both
               Nigeria and overseas by renownedcraftmen talented in the intricate
               science of decorative lighting
             </Text>
           </Box>
           <Box>
-            <Heading color="#8a2a21" as="h4" size="sm">
+            <Heading color="#fff" as="h4" size="sm">
               Customer Service
             </Heading>
-            <Text fontWeight="bold" lineHeight="1.2rem" color="#c0827c">
+            <Text fontWeight="bold" lineHeight="1.2rem" color="#fff">
               customers are invited to visit our showrooms where they can
               receive advise demonstration by our team of highly trained
               lighting experts
@@ -310,7 +313,8 @@ export default function Home({ allPosts }) {
 }
 
 export async function getStaticProps() {
-  const allPosts = getAllPosts(["title", "slug", "coverImage"]);
+  const allPosts = getAllPosts(["title", "slug", "coverImage", "rank"]).sort((a, b) => a.rank - b.rank) ;
+  console.log(allPosts, 'allPosts')
 
   return {
     props: { allPosts },

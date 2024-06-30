@@ -2,6 +2,7 @@
 title: Reaping The Gains
 coverImage: /covers/reaping-the-gains.jpg
 heroImage: /assets/images/reaping.jpg
+rank: 5
 ---
 
 Internationally renowned economist, Professor Adam Smith, in his popular book, “the wealth of Nations”, spoke extensively on the politics of demand and supply in the marketing goods and services. For instance, he posts that the market orientation of individual goods and services necessarily makes them to be admired and purchased by willing customers
