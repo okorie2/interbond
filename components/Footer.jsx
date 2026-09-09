@@ -36,26 +36,26 @@ function Footer() {
 
         <Box mr="2rem">
           <Text>Contact Us</Text>
-          <Text display="flex">
+          <Flex align="center">
             <FaPhone />
             <Box display="inline-block" ml="1rem">
               08085034987
             </Box>
-          </Text>
-          <Text display="flex">
+          </Flex>
+          <Flex align="center">
             <VscGlobe />
             <Box display="inline-block" ml="1rem">
               interbondng.net
             </Box>
-          </Text>
+          </Flex>
           <a href="https://www.linkedin.com/in/sonny-u-nlewedim-22605623">
             {" "}
-            <Text display="flex">
+            <Flex align="center">
               <FaLinkedin />
               <Box display="inline-block" ml="1rem">
                 Sonny Nlewedim
               </Box>
-            </Text>
+            </Flex>
           </a>
         </Box>
       </Flex>
