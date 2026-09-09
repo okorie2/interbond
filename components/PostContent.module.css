@@ -20,3 +20,120 @@ font-weight: bold;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
+
+.archive {
+  border-top: 1px solid #d9d2ca;
+  margin: 4rem 0 1rem;
+  padding-top: 2rem;
+}
+
+.archiveHeading {
+  margin-bottom: 1.5rem;
+}
+
+.archiveKicker {
+  color: #8a2a21;
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.55rem;
+  text-transform: uppercase;
+}
+
+.archiveHeading h2 {
+  color: #1d2424;
+  font-size: clamp(1.6rem, 3vw, 2.35rem);
+  line-height: 1.05;
+  margin: 0 0 0.65rem;
+}
+
+.archiveHeading p {
+  color: #667070;
+  margin: 0;
+}
+
+.archiveGrid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.archiveItem {
+  grid-column: span 4;
+  margin: 0;
+}
+
+.archiveItem:nth-child(1),
+.archiveItem:nth-child(4) {
+  grid-column: span 5;
+}
+
+.archiveItem:nth-child(2),
+.archiveItem:nth-child(3),
+.archiveItem:nth-child(5) {
+  grid-column: span 7;
+}
+
+.archiveMedia {
+  background: #e5e0d9;
+  overflow: hidden;
+  position: relative;
+  aspect-ratio: 4 / 3;
+}
+
+.archiveItem:nth-child(1) .archiveMedia,
+.archiveItem:nth-child(4) .archiveMedia {
+  aspect-ratio: 5 / 6;
+}
+
+.archiveMedia img,
+.archiveMedia video {
+  background: #e5e0d9;
+  display: block;
+  height: 100%;
+  object-fit: contain;
+  object-position: top center;
+  transition: transform 350ms ease;
+  width: 100%;
+}
+
+.archiveItem:hover .archiveMedia img,
+.archiveItem:hover .archiveMedia video {
+  transform: scale(1.035);
+}
+
+.archiveNumber {
+  background: rgba(29, 36, 36, 0.84);
+  color: #fff;
+  font-size: 0.7rem;
+  left: 0.65rem;
+  letter-spacing: 0.08em;
+  padding: 0.35rem 0.45rem;
+  position: absolute;
+  top: 0.65rem;
+}
+
+@media (max-width: 600px) {
+  .archive {
+    margin-top: 3rem;
+  }
+
+  .archiveGrid {
+    gap: 1.25rem 0.75rem;
+  }
+
+  .archiveItem,
+  .archiveItem:nth-child(1),
+  .archiveItem:nth-child(2),
+  .archiveItem:nth-child(3),
+  .archiveItem:nth-child(4),
+  .archiveItem:nth-child(5) {
+    grid-column: span 6;
+  }
+
+  .archiveItem:nth-child(1) .archiveMedia,
+  .archiveItem:nth-child(4) .archiveMedia {
+    aspect-ratio: 4 / 5;
+  }
+}

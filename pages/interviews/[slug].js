@@ -50,7 +50,7 @@ export default function Post({ post, morePosts, preview }) {
               <Img src={post.heroImage} />
             </Box>
 
-            <PostContent content={post.content} />
+            <PostContent content={post.content} slug={post.slug} />
           </Box>
           <Fragment>
             <Box
